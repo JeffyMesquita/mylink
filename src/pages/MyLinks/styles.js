@@ -15,5 +15,5 @@ export const Title = styled.Text`
 `;
 
 export const ListLinks = styled.FlatList`
-
+   
 `;
