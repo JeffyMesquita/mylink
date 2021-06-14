@@ -10,9 +10,9 @@ import { Feather } from '@expo/vector-icons';
 import { ContainerLogo, Logo, ContainerContent, Title, SubTitle, ContainerInput, BoxIcon, Input, ButtonLink, ButtonLinkText } from './styles';
 
 import api from '../../services/api';
+import { saveLink } from '../../utils/storeLinks';
 
 export default function Home() {
-
    const [loading, setLoading] = useState(false);
    const [input, setInput] = useState('');
    const [modalVisible, setModalVisible] = useState(false);
@@ -26,8 +26,9 @@ export default function Home() {
             long_url: input
          })
          setData(response.data);
-
          setModalVisible(true);
+
+         saveLink('sujeitoLinks', response.data);
 
          Keyboard.dismiss();
          setLoading(false);
