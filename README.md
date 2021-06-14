@@ -8,7 +8,7 @@
 
 <p>Na semana Passada ocorreu Semana Insider React Native Ministrada pelo Matheus Fraga(Sujeito Programador) Onde construímos um app encurtador de Links.
 
-O App foi construído a partir do Expo CLI e utilizamos Drawer Navigation, Styled Components, Hooks(useState. useEffect), O consumo da API do BitLy para encurtar as URLs, Uso da biblioteca async storage para persistir os links do celular do usuário
+O App foi construído a partir do Expo CLI e utilizamos Drawer Navigation, Styled Components, Hooks(useState. useEffect), O consumo da API do BitLy para encurtar as URLs, Uso da biblioteca async storage para persistir os links no celular do usuário
 
 Agradeço Matheus Fraga pela Oportunidade de adquirir e fundamentar tais conhecimentos nestas aulas que forma muito proveitosas
 
